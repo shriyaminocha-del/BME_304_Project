@@ -1,0 +1,39 @@
+ice003_p_1of2 16 200 734000
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 4730 0 EHG1
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 -20613 0 EHG10
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 -26237 0 EHG11
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 14410 0 EHG12
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 9739 0 EHG13
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 12795 0 EHG14
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 -4200 0 EHG15
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 15847 0 EHG16
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 -12311 0 EHG2
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 13779 0 EHG3
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 -15996 0 EHG4
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 -18660 0 EHG5
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 1509 0 EHG6
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 -17504 0 EHG7
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 2506 0 EHG8
+ice003_p_1of2.dat 16 131.068/mV 15 0 0 -5130 0 EHG9
+
+#Info:
+#ID:ice003
+#Record type:pregnancy
+#Record number:1/2
+#Age(years):23
+#BMI before pregnancy:28.4
+#BMI at recording:34.1
+#Gravidity:1
+#Parity:0
+#Previous caesarean:No
+#Placental position:Anterior
+#Gestational age at recording(w/d):37/6
+#Gestational age at delivery:40/0
+#Mode of delivery:Vaginal
+#Synthetic oxytocin use in labour:No
+#Epidural during labour:No
+#Comments for recording:
+#Electrode 12 was close to a small scar.
+#Last 6 minutes of recording are missing from the TOCO trace. There was
+#no evidence of a contraction during that time.
+#Comments for delivery:
