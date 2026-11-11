@@ -1,0 +1,40 @@
+ice036_p_2of6 16 200 704000
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 13245 0 EHG1
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 15413 0 EHG10
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 4121 0 EHG11
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 -27502 0 EHG12
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 18696 0 EHG13
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 5195 0 EHG14
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 -24482 0 EHG15
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 -1338 0 EHG16
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 24509 0 EHG2
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 11664 0 EHG3
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 -19685 0 EHG4
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 -21605 0 EHG5
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 24841 0 EHG6
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 -2573 0 EHG7
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 32396 0 EHG8
+ice036_p_2of6.dat 16 131.068/mV 15 0 0 27131 0 EHG9
+
+#Info:
+#ID:ice036
+#Record type:pregnancy
+#Record number:2/6
+#Age(years):39
+#BMI before pregnancy:31.0
+#BMI at recording:36.2
+#Gravidity:5
+#Parity:2
+#Previous caesarean:No
+#Placental position:Anterior/High
+#Gestational age at recording(w/d):34/2
+#Gestational age at delivery:41/1
+#Mode of delivery:Emergency caesarean due to other than slow progress
+#Synthetic oxytocin use in labour:No
+#Epidural during labour:No
+#Comments for recording:
+#Participant felt most contractions in the lower abdomen and not 
+#neccessarily under the tocodynamometer on the upper abdomen.
+#Tocodynamometer repositioned at 34 minutes.
+#Comments for delivery:
+#Participant was in spontaneous labour before the caesarean.

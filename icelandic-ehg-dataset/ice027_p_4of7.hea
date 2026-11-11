@@ -1,0 +1,42 @@
+ice027_p_4of7 16 200 722000
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 1612 0 EHG1
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 14656 0 EHG10
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 17745 0 EHG11
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 -17024 0 EHG12
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 25045 0 EHG13
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 16947 0 EHG14
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 18533 0 EHG15
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 32716 0 EHG16
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 -16118 0 EHG2
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 12551 0 EHG3
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 223 0 EHG4
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 5438 0 EHG5
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 -4647 0 EHG6
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 29748 0 EHG7
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 994 0 EHG8
+ice027_p_4of7.dat 16 131.068/mV 15 0 0 -2669 0 EHG9
+
+#Info:
+#ID:ice027
+#Record type:pregnancy
+#Record number:4/7
+#Age(years):31
+#BMI before pregnancy:31.1
+#BMI at recording:35.5
+#Gravidity:7
+#Parity:2
+#Previous caesarean:No
+#Placental position:Anterior
+#Gestational age at recording(w/d):35/5
+#Gestational age at delivery:38/1
+#Mode of delivery:Vaginal
+#Synthetic oxytocin use in labour:Yes
+#Epidural during labour:No
+#Comments for recording:
+#Some fetal movements during recording.
+#Small contractions (pressure sensations) during recording which register 
+#as very small mounds on TOCO trace.
+#Small contractions between 00:22:14 and 00:24:44.
+#Comments for delivery:
+#Started receiving synthetic oxytocin 2 hours and 6 minutes beforer the baby was born.
+#Amniotomy 3 hours and 50 minutes before baby was born.

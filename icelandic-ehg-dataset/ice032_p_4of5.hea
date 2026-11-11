@@ -1,0 +1,38 @@
+ice032_p_4of5 16 200 821000
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 19137 0 EHG1
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 31034 0 EHG10
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 12778 0 EHG11
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 -25145 0 EHG12
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 25946 0 EHG13
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 24208 0 EHG14
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 15595 0 EHG15
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 32213 0 EHG16
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 23139 0 EHG2
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 -5468 0 EHG3
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 2987 0 EHG4
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 -2137 0 EHG5
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 2292 0 EHG6
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 20560 0 EHG7
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 28469 0 EHG8
+ice032_p_4of5.dat 16 131.068/mV 15 0 0 3162 0 EHG9
+
+#Info:
+#ID:ice032
+#Record type:pregnancy
+#Record number:4/5
+#Age(years):31
+#BMI before pregnancy:26.0
+#BMI at recording:29.8
+#Gravidity:1
+#Parity:0
+#Previous caesarean:No
+#Placental position:Posterior
+#Gestational age at recording(w/d):37/2
+#Gestational age at delivery:40/1
+#Mode of delivery:Vaginal
+#Synthetic oxytocin use in labour:No
+#Epidural during labour:No
+#Comments for recording:
+#Took Adalat until 31/3 weeks.
+#Took Bricanyl until 35/5 weeks.
+#Comments for delivery:

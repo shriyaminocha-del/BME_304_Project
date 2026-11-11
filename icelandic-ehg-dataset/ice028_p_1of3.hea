@@ -1,0 +1,36 @@
+ice028_p_1of3 16 200 762000
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 9823 0 EHG1
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 -28708 0 EHG10
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 -6698 0 EHG11
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 4050 0 EHG12
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 30645 0 EHG13
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 14668 0 EHG14
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 15179 0 EHG15
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 -27790 0 EHG16
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 -1457 0 EHG2
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 17655 0 EHG3
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 -4811 0 EHG4
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 539 0 EHG5
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 3316 0 EHG6
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 -32460 0 EHG7
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 15369 0 EHG8
+ice028_p_1of3.dat 16 131.068/mV 15 0 0 -14467 0 EHG9
+
+#Info:
+#ID:ice028
+#Record type:pregnancy
+#Record number:1/3
+#Age(years):31
+#BMI before pregnancy:21.6
+#BMI at recording:24.9
+#Gravidity:4
+#Parity:1
+#Previous caesarean:No
+#Placental position:Posterior
+#Gestational age at recording(w/d):34/1
+#Gestational age at delivery:38/0
+#Mode of delivery:Vaginal
+#Synthetic oxytocin use in labour:No
+#Epidural during labour:No
+#Comments for recording:
+#Comments for delivery:

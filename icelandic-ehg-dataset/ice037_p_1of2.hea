@@ -1,0 +1,38 @@
+ice037_p_1of2 16 200 763000
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 -24951 0 EHG1
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 26705 0 EHG10
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 -26066 0 EHG11
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 15442 0 EHG12
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 -12350 0 EHG13
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 -8446 0 EHG14
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 -5282 0 EHG15
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 17268 0 EHG16
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 31796 0 EHG2
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 7033 0 EHG3
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 27388 0 EHG4
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 -874 0 EHG5
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 9893 0 EHG6
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 10329 0 EHG7
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 -30274 0 EHG8
+ice037_p_1of2.dat 16 131.068/mV 15 0 0 -10628 0 EHG9
+
+#Info:
+#ID:ice037
+#Record type:pregnancy
+#Record number:1/2
+#Age(years):33
+#BMI before pregnancy:26.6
+#BMI at recording:31.9
+#Gravidity:2
+#Parity:1
+#Previous caesarean:Yes
+#Placental position:Posterior/High
+#Gestational age at recording(w/d):33/5
+#Gestational age at delivery:38/5
+#Mode of delivery:Emergency caesarean due to other than slow progress
+#Synthetic oxytocin use in labour:No
+#Epidural during labour:No
+#Comments for recording:
+#Fetal movements now and again during recording.
+#Comments for delivery:
+#Participant was in spontaneous labour before the caesarean.
