@@ -1,0 +1,20 @@
+tpehgt_n001 8 20 35300
+tpehgt_n001.dat 16 13107/mV 16 0 371 -386 0 EHG1
+tpehgt_n001.dat 16 13107/mV 16 0 281 3666 0 EHG1_Butter-4-bi-0.08-5
+tpehgt_n001.dat 16 13107/mV 16 0 898 -19553 0 EHG2
+tpehgt_n001.dat 16 13107/mV 16 0 543 8172 0 EHG2_Butter-4-bi-0.08-5
+tpehgt_n001.dat 16 13107/mV 16 0 -5261 -6722 0 EHG3
+tpehgt_n001.dat 16 13107/mV 16 0 -1311 -2605 0 EHG3_Butter-4-bi-0.08-5
+tpehgt_n001.dat 16 13107/mV 16 0 -4394 -6741 0 TOCO
+tpehgt_n001.dat 16 13107/mV 16 0 -1328 -4946 0 TOCO_Butter-4-bi-0.08-5
+#Comments:
+# RecID	tpehgt_n001
+# RecType Non-pregnant
+# Gestation N/A
+# Rectime N/A
+# Age None
+# Parity None
+# Abortions None
+# Weight None
+# Placental_position N/A
+# Smoker None

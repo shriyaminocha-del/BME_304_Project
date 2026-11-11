@@ -1,0 +1,214 @@
+<!--#set var="TITLE" value="The Term-Preterm EHG DataSet with Tocogram (TPEHGT DS)"-->
+<!--#set var="USELOCALCSS" value="1"-->
+<!--#include virtual="/head.shtml"-->
+
+<!--#set var="RELEASEDATE" value="29 August 2018"-->
+<!--#set var="VERSION" value="1.0"-->
+
+<!--#set var="CITATION" value="
+Jager F, Libenšek S, Geršak K (2018)
+<a href=https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202125 target=_blank>Characterization and automatic classification of preterm and term uterine records</a>. PLoS ONE 13(8): e0202125. https://doi.org/10.1371/journal.pone.0202125.
+"-->
+<!--#set var="CITATIONBIBTEX" value="
+@article{TPEHGTDS,
+  author  = {Jager F, Libenšek S, Geršak K},
+  title   = {Characterization and automatic classification of preterm and term uterine records.},
+  journal = {PLoS ONE},
+  volume  = {13},
+  number  = {8},
+  year    = {2018},
+  month   = {August},
+  pages   = {e0202125},
+  doi     = {https://doi.org/10.1371/journal.pone.0202125},
+  url     = {https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202125}
+}
+"-->
+<!--#include virtual="/pn/cite-box.shtml"-->
+
+
+<h2>Introduction</h2>
+
+<p>
+  The Term-Preterm ElectroHysteroGram DataSet with Tocogram (TPEHGT DS) contains
+  26 four-signal 30-min uterine EHG records, i.e., three EHG signals accompanied by
+  a simultaneously recorded external tocogram measuring mechanical uterine activity
+  (TOCO signal) of pregnant women, and another five 30-min uterine records (EHG signals
+  and TOCO signal) of non-pregnant women.
+</p>
+
+<h2>Data Description</h2>
+
+<p>
+  The records of the pregnant women belong to
+  pregnancies that resulted in spontaneous preterm delivery (13 preterm records from
+  eight pregnancies), and to pregnancies that resulted in spontaneous term delivery
+  (13 term records from ten pregnancies). The main objective of the dataset is to
+  provide a set of annotated contraction intervals (annotated intervals related to
+  uterine contractions), and another set of annotated non-contraction intervals (dummy
+  intervals, i.e., intervals out of uterine contractions). The annotated contraction
+  and dummy intervals of the records allow:
+</p>
+<ul>
+   <li> characterization of uterine records, contraction intervals, and dummy intervals
+        during pregnancy; </li>
+   <li> development of algorithms to classify between preterm and term uterine records,
+        and/or, between labor and nonlabor uterine records.</li>
+</ul>
+<p>
+  The dataset was developed at the Faculty of Computer and Information
+  Science (Laboratory for Biomedical Computer Systems and Imaging), University of Ljubljana,
+  Ljubljana, while the records were collected at the University Medical Centre Ljubljana,
+  Department of Obstetrics and Gynecology. (Obtaining of the uterine records and the research
+  were approved by the National Medical Ethics Committee of the Republic Slovenia:
+  No. 32/01/97 and No. 108/09/09. The recording protocol (including position of
+  the electrodes) was those which was also used during colecting the records of the
+  <a href="https://physionet.org/physiobank/database/tpehgdb/" target="other">
+  Term-Preterm EHG Database (TPEHG DB)</a>.
+</p>
+
+<p>
+  The women participating in the study represented a sample of the general population.
+  The TPEHGT DS contains 31 uterine records of which:
+</p>
+<ul>
+  <li>13 preterm records are with spontaneous delivery (eight pregnancies),
+           the mean delivery time was 33.7 (± 1.97) weeks, and contain 47
+           annotated contraction intervals and 47 annotated dummy intervals;</li>
+  <li> 13 term records are with spontaneous delivery (ten pregnancies),
+           the mean delivery time was 38.1 (± 1.04) weeks, and contain 53
+           annotated contraction intervals and 53 annotated dummy intervals;</li>
+  <li>five records are from non-pregnant women, and contain 53 annotated
+      dummy intervals.</li>
+</ul>
+
+<p>The records of pregnant women were obtained during regular check-ups in pregnancy
+    around 31st week of pregnancy. The mean recording time and standard deviation of
+    the records of pregnant women was 30.2 (± 2.76) weeks of pregnancy. For the manual
+    annotating procedure, we used a graphic user interface and annotation editor.
+    Besides visualizing original signals and annotation editing, the graphic user interface
+    also allows calculating, and visualizing, spectra and spectrograms of the signals.
+    Consensus about the annotated intervals was reached by two annotators.
+</p>
+
+<p>
+  The EHG signals of the records were colected from the abdominal surface. The electrodes
+  (AgCl2) to measure EHG signals of the records were placed in two horizontal rows,
+  symmetrically above and under the navel, spaced 7 cm apart:
+</p>
+
+<ul>
+  <li> the first electrode (E1) was placed 3.5 cm to the left and 3.5 cm above the navel;</li>
+  <li> the second electrode (E2) was placed 3.5 cm to the right and 3.5 cm above the navel;</li>
+  <li> the third electrode (E3) was placed 3.5 cm to the right and 3.5 cm below the navel;</li>
+  <li> the fourth electrode (E4) was placed 3.5 cm to the left and 3.5 cm below the navel; </li>
+<li> <i>the reference electrode was attached to the woman’s thigh</i>. </li>
+</ul>
+
+<p>
+    The differences in the electrical potentials of the electrodes were recorded, producing
+    three signals:
+</p>
+<ul>
+  <li> S1 = E2 - E1 (first EHG signal);</li>
+  <li> S2 = E2 - E3 (second EHG signal);</li>
+  <li> S3 = E4 - E3 (third EHG signal).</li>
+</ul>
+
+<p>
+    Prior to sampling, the EHG signals were filtered using an analog three-pole Butterworth
+    filter with the bandwidth from 0.0 Hz to 5.0 Hz. The fourth simultaneous signal was the
+    analog signal corresponding to an external tocogram (TOCO signal) measuring mechanical
+    uterine pressure acquired using a cardiotocograph (model HP8030) attached at the top of
+    the fundus. The analog TOCO signal was lead to one of the amplifiers of the A/D converter
+    (the value of 150 μV corresponds to a pressure of 1 Pa). The sampling frequency for the
+    EHG and TOCO signals was 20 samples per second per signal, with 16-bit resolution.
+</p>
+<p>
+  The original EHG and TOCO signals of the records were further filtered using the four-pole
+  band-pass digital Butterworth filter with cut-off frequencies at 0.08 Hz and 5.0 Hz
+  applied bi-directionally. The records of the TPEHGT DS contain both, the original and
+  filtered signals.
+</p>
+
+<h2>Files</h2>
+<p>
+    Record names of the TPEHGT DS are of the following format: tpehgt_TXXX, where capital
+    T refers to the type of record: p - Preterm, t - Term, and n - Non-pregnant, and XXX
+    is the record number of that type.
+</p>
+<p>
+  The records of the dataset are in the <a href="/physiotools/wfdb.shtml" target="_blank">WFDB</a> format. Each records consists of three files,
+  a header file (<em>.hea</em>) containing information regarding the record, the data file (<em>.dat</em>)
+  containing original and filtered signal data, and the annotation file (<em>.atr</em>) containing
+  annotations for the record.
+</p>
+<p>
+  The comment section in the header files (<em>.hea</em>) includes clinical
+  information, such as:
+</p>
+<ul>
+  <li>record ID [record name];</li>
+  <li>record type [Preterm/Term/Non-pregnant];</li>
+  <li>pregnancy duration (gestation) [weeks];</li>
+  <li>gestation duration at the time of recording [weeks];</li>
+  <li>maternal age [years];</li>
+  <li>number of previous deliveries (parity) [number];</li>
+  <li>number of previous abortions [number];</li>
+  <li>weight at the time of recording [kg];</li>
+  <li>placental position [front/end];</li>
+  <li>smoker [yes/no];</li>
+</ul>
+<p>
+    If data was not available, the value is marked as None, if data was not applicable, the
+    value is marked as N/A.
+</p>
+<p>
+  The signal data in the data files (<em>.dat</em>) are in the following order:
+</p>
+<ul>
+  <li>first EHG signal S1, unfiltered;</li>
+  <li>first EHG signal S1, filtered using a 4-pole band-pass Butterworth
+          filter from 0.08 Hz to 5.0 Hz, bi-directionally;</li>
+  <li>second EHG signal S2, unfiltered;</li>
+  <li>second EHG signal S2, filtered using a 4-pole band-pass Butterworth
+          filter from 0.08 Hz to 5.0 Hz, bi-directionally;</li>
+  <li>third EHG signal S3, unfiltered;</li>
+  <li>third EHG signal S3, filtered using a 4-pole band-pass Butterworth
+          filter from 0.08 Hz to 5.0 Hz, bi-directionally;</li>
+  <li>TOCO signal, unfiltered;</li>
+  <li>TOCO signal, filtered using a 4-pole band-pass Butterworth
+        filter from 0.08 Hz to 5.0 Hz, bi-directionally;</li>
+</ul>
+
+<p>
+  The annotations files (<em>.atr</em>) cantain manual annotations of contraction and dummy
+  intervals:
+<ul>
+  <li>BC - the beginning of contraction interval;</li>
+  <li>EC - the end of contraction interval;</li>
+  <li>BD - the beginning of dummy interval;</li>
+  <li>ED - the end of dummy interval;</li>
+</ul>
+
+
+<h2>Contact</h2>
+
+<p>
+  For further information, please contact:
+
+  <blockquote>
+    Franc Jager<br>
+    Laboratory of Biomedical Computer Systems and Imaging<br>
+    Faculty of Computer and Information Science<br>
+    University of Ljubljana<br>
+    Večna pot 113<br>
+    1000 Ljubljana, Slovenia<br>
+    <em>email:</em> franc.jager@fri.uni-lj.si
+  </blockquote>
+</p>
+
+<h2>References</h2>
+
+<ol>
+  <li>Jager F, Libenšek S, Geršak K (2018). <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0202125" target="_blank">Characterization and automatic classification of preterm and term uterine records</a>. PLoS ONE 13(8): e0202125. https://doi.org/10.1371/journal.pone.0202125.</li>
+</ol>
