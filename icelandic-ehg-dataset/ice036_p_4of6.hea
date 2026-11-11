@@ -1,0 +1,41 @@
+ice036_p_4of6 16 200 759000
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 -16468 0 EHG1
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 605 0 EHG10
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 -299 0 EHG11
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 14838 0 EHG12
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 -21911 0 EHG13
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 -30831 0 EHG14
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 -26700 0 EHG15
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 26842 0 EHG16
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 -10328 0 EHG2
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 2218 0 EHG3
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 19615 0 EHG4
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 18172 0 EHG5
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 -449 0 EHG6
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 22289 0 EHG7
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 9044 0 EHG8
+ice036_p_4of6.dat 16 131.068/mV 15 0 0 -28698 0 EHG9
+
+#Info:
+#ID:ice036
+#Record type:pregnancy
+#Record number:4/6
+#Age(years):39
+#BMI before pregnancy:31.0
+#BMI at recording:35.8
+#Gravidity:5
+#Parity:2
+#Previous caesarean:No
+#Placental position:Anterior/High
+#Gestational age at recording(w/d):38/3
+#Gestational age at delivery:41/1
+#Mode of delivery:Emergency caesarean due to other than slow progress
+#Synthetic oxytocin use in labour:No
+#Epidural during labour:No
+#Comments for recording:
+#Electrode 1 close to belly button.
+#Skin where placement guide was situated in last recording still dry and 
+#scaly and outlines can be seen of the guide and where the electrodes were. 
+#Guide is placed in same place for this recording.
+#Comments for delivery:
+#Participant was in spontaneous labour before the caesarean.

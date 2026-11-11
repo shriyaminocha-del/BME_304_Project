@@ -1,0 +1,37 @@
+ice045_p_2of4 16 200 791000
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 17301 0 EHG1
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 27813 0 EHG10
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 -16283 0 EHG11
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 1418 0 EHG12
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 -20882 0 EHG13
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 -22964 0 EHG14
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 -10120 0 EHG15
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 -2618 0 EHG16
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 -19786 0 EHG2
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 26749 0 EHG3
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 20108 0 EHG4
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 16004 0 EHG5
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 -28808 0 EHG6
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 -30020 0 EHG7
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 -31714 0 EHG8
+ice045_p_2of4.dat 16 131.068/mV 15 0 0 -17206 0 EHG9
+
+#Info:
+#ID:ice045
+#Record type:pregnancy
+#Record number:2/4
+#Age(years):26
+#BMI before pregnancy:24.7
+#BMI at recording:29.8
+#Gravidity:4
+#Parity:1
+#Previous caesarean:No
+#Placental position:Anterior/High
+#Gestational age at recording(w/d):35/6
+#Gestational age at delivery(w/d):40/0
+#Mode of delivery:Vaginal
+#Synthetic oxytocin use in labour:No
+#Epidural during labour:No
+#Comments for recording:
+#Possibly a small stretch mark under part of electrode 1.
+#Comments for delivery:
