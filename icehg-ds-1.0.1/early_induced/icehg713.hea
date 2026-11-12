@@ -1,0 +1,18 @@
+icehg713 6 20 35300
+icehg713.dat 16 13107/mV 16 0 2482 -6129 0 S1
+icehg713.dat 16 13107/mV 16 0 21 94 0 S1_DOCFILT-4-0.08-5
+icehg713.dat 16 13107/mV 16 0 1957 20476 0 S2
+icehg713.dat 16 13107/mV 16 0 16 -1135 0 S2_DOCFILT-4-0.08-5
+icehg713.dat 16 13107/mV 16 0 -1656 8412 0 S3
+icehg713.dat 16 13107/mV 16 0 -14 -1369 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 713
+#    RecType Induced
+#    Gestation 39.7
+#    Rectime 23.1
+#    Age 33
+#    Weight 108
+#    Placental_position front
+#    Height 164
+#    Newborn_weight 4250
+#    Pair_RecID None

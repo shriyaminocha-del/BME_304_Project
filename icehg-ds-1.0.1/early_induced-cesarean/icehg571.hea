@@ -1,0 +1,18 @@
+icehg571 6 20 35220
+icehg571.dat 16 13107/mV 16 0 2154 12165 0 S1
+icehg571.dat 16 13107/mV 16 0 18 -110 0 S1_DOCFILT-4-0.08-5
+icehg571.dat 16 13107/mV 16 0 487 17358 0 S2
+icehg571.dat 16 13107/mV 16 0 4 -916 0 S2_DOCFILT-4-0.08-5
+icehg571.dat 16 13107/mV 16 0 1467 -13270 0 S3
+icehg571.dat 16 13107/mV 16 0 12 3540 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 571
+#    RecType Induced-cesarean
+#    Gestation 40.4
+#    Rectime 23.1
+#    Age 28
+#    Weight 61
+#    Placental_position front
+#    Height 165
+#    Newborn_weight 3350
+#    Pair_RecID None

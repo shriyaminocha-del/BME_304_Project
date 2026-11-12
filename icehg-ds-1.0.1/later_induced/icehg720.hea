@@ -1,0 +1,18 @@
+icehg720 6 20 35260
+icehg720.dat 16 13107/mV 16 0 1560 16455 0 S1
+icehg720.dat 16 13107/mV 16 0 13 2137 0 S1_DOCFILT-4-0.08-5
+icehg720.dat 16 13107/mV 16 0 -2746 6578 0 S2
+icehg720.dat 16 13107/mV 16 0 -23 -1807 0 S2_DOCFILT-4-0.08-5
+icehg720.dat 16 13107/mV 16 0 -2381 -20504 0 S3
+icehg720.dat 16 13107/mV 16 0 -20 -3161 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 720
+#    RecType Induced
+#    Gestation 41.1
+#    Rectime 30.4
+#    Age 26
+#    Weight 135
+#    Placental_position end
+#    Height 168
+#    Newborn_weight 3960
+#    Pair_RecID None

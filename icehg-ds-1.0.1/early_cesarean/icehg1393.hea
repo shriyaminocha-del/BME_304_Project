@@ -1,0 +1,18 @@
+icehg1393 6 20 36000
+icehg1393.dat 16 13107/mV 16 0 -1715 -8403 0 S1
+icehg1393.dat 16 13107/mV 16 0 -470 -20832 0 S1_DOCFILT-4-0.08-5
+icehg1393.dat 16 13107/mV 16 0 -2031 -8846 0 S2
+icehg1393.dat 16 13107/mV 16 0 -434 -27526 0 S2_DOCFILT-4-0.08-5
+icehg1393.dat 16 13107/mV 16 0 2427 -8175 0 S3
+icehg1393.dat 16 13107/mV 16 0 615 31049 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 1393
+#    RecType Cesarean
+#    Gestation 40.6
+#    Rectime 21.6
+#    Age 32
+#    Weight 88
+#    Placental_position front
+#    Height 167
+#    Newborn_weight 3390
+#    Pair_RecID 1580

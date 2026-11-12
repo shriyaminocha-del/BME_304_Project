@@ -1,0 +1,18 @@
+icehg650 6 20 35240
+icehg650.dat 16 13107/mV 16 0 -1470 9969 0 S1
+icehg650.dat 16 13107/mV 16 0 -12 -274 0 S1_DOCFILT-4-0.08-5
+icehg650.dat 16 13107/mV 16 0 2440 -9801 0 S2
+icehg650.dat 16 13107/mV 16 0 20 205 0 S2_DOCFILT-4-0.08-5
+icehg650.dat 16 13107/mV 16 0 -2593 -10244 0 S3
+icehg650.dat 16 13107/mV 16 0 -21 -1277 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 650
+#    RecType Induced-cesarean
+#    Gestation 37.4
+#    Rectime 22.9
+#    Age 37
+#    Weight 70
+#    Placental_position end
+#    Height 160
+#    Newborn_weight 3300
+#    Pair_RecID 647

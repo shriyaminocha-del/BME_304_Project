@@ -1,0 +1,18 @@
+icehg806 6 20 35260
+icehg806.dat 16 13107/mV 16 0 2123 -1345 0 S1
+icehg806.dat 16 13107/mV 16 0 18 524 0 S1_DOCFILT-4-0.08-5
+icehg806.dat 16 13107/mV 16 0 474 15744 0 S2
+icehg806.dat 16 13107/mV 16 0 4 1066 0 S2_DOCFILT-4-0.08-5
+icehg806.dat 16 13107/mV 16 0 2964 -3125 0 S3
+icehg806.dat 16 13107/mV 16 0 25 1061 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 806
+#    RecType Induced
+#    Gestation 41.1
+#    Rectime 22.4
+#    Age 32
+#    Weight 85
+#    Placental_position end
+#    Height 158
+#    Newborn_weight 3700
+#    Pair_RecID 805

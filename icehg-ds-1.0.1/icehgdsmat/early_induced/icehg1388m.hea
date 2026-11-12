@@ -1,0 +1,20 @@
+icehg1388m 6 20 36000
+icehg1388m.mat 16+192 13107/mV 16 0 -1525 1006 0 S1
+icehg1388m.mat 16+192 13107/mV 16 0 -13 1455 0 S1_DOCFILT-4-0.08-5
+icehg1388m.mat 16+192 13107/mV 16 0 -1670 1646 0 S2
+icehg1388m.mat 16+192 13107/mV 16 0 -14 -179 0 S2_DOCFILT-4-0.08-5
+icehg1388m.mat 16+192 13107/mV 16 0 5817 15549 0 S3
+icehg1388m.mat 16+192 13107/mV 16 0 48 -2061 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 1388
+#    RecType Induced
+#    Gestation 41
+#    Rectime 22.4
+#    Age 34
+#    Weight 68
+#    Placental_position front
+#    Height 172
+#    Newborn_weight 3720
+#    Pair_RecID 1254
+#Creator: wfdb2mat
+#Source: record early_induced/icehg1388

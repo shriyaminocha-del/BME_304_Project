@@ -1,0 +1,18 @@
+icehg1059 6 20 35460
+icehg1059.dat 16 13107/mV 16 0 -2325 -11018 0 S1
+icehg1059.dat 16 13107/mV 16 0 -19 2989 0 S1_DOCFILT-4-0.08-5
+icehg1059.dat 16 13107/mV 16 0 -507 -7938 0 S2
+icehg1059.dat 16 13107/mV 16 0 -4 -777 0 S2_DOCFILT-4-0.08-5
+icehg1059.dat 16 13107/mV 16 0 -344 13540 0 S3
+icehg1059.dat 16 13107/mV 16 0 -3 -1743 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 1059
+#    RecType Induced
+#    Gestation 39.4
+#    Rectime 30.6
+#    Age 24
+#    Weight 78
+#    Placental_position front
+#    Height 175
+#    Newborn_weight 3020
+#    Pair_RecID 1444

@@ -1,0 +1,18 @@
+icehg1098 6 20 35360
+icehg1098.dat 16 13107/mV 16 0 1731 2946 0 S1
+icehg1098.dat 16 13107/mV 16 0 14 -2196 0 S1_DOCFILT-4-0.08-5
+icehg1098.dat 16 13107/mV 16 0 -1042 16900 0 S2
+icehg1098.dat 16 13107/mV 16 0 -9 -851 0 S2_DOCFILT-4-0.08-5
+icehg1098.dat 16 13107/mV 16 0 -2797 -7694 0 S3
+icehg1098.dat 16 13107/mV 16 0 -23 -459 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 1098
+#    RecType Induced-cesarean
+#    Gestation 38.9
+#    Rectime 22.9
+#    Age 37
+#    Weight 73
+#    Placental_position front
+#    Height 158
+#    Newborn_weight 3620
+#    Pair_RecID 1096

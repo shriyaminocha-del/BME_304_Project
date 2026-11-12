@@ -1,0 +1,4 @@
+
+Induced Cesarean EHG DataSet (ICEHG DS): An open dataset with electrohysterogram records of pregnancies ending in induced and cesarean section delivery
+
+This package contains 126 30-minute EHG records, recorded either early (23rd week), or later during pregnancy (31st week), of those individual pregnancies that were expected to end in spontaneous term delivery, but ended in induced or cesarean delivery. The records were collected at the University Medical Center Ljubljana, Ljubljana, Slovenia. The dataset includes 38 and 43, early and later, induced; 11 and 8, early and later, cesarean; and 13 and 13, early and later, induced-cesarean records. This database enables better understanding of the underlying physiological mechanisms involved during pregnancies ending in induced and cesarean deliveries, and provides more realistic assessment of the performance of automated preterm birth prediction.

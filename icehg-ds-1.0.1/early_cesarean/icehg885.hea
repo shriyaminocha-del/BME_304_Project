@@ -1,0 +1,18 @@
+icehg885 6 20 35040
+icehg885.dat 16 13107/mV 16 0 -411 -3323 0 S1
+icehg885.dat 16 13107/mV 16 0 -3 -6822 0 S1_DOCFILT-4-0.08-5
+icehg885.dat 16 13107/mV 16 0 -351 -7836 0 S2
+icehg885.dat 16 13107/mV 16 0 -3 -3695 0 S2_DOCFILT-4-0.08-5
+icehg885.dat 16 13107/mV 16 0 735 -12636 0 S3
+icehg885.dat 16 13107/mV 16 0 6 2560 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 885
+#    RecType Cesarean
+#    Gestation 40.3
+#    Rectime 23.3
+#    Age 32
+#    Weight 67
+#    Placental_position end
+#    Height 168
+#    Newborn_weight 4000
+#    Pair_RecID 714

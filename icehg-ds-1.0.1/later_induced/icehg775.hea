@@ -1,0 +1,18 @@
+icehg775 6 20 35140
+icehg775.dat 16 13107/mV 16 0 3527 -5721 0 S1
+icehg775.dat 16 13107/mV 16 0 29 4063 0 S1_DOCFILT-4-0.08-5
+icehg775.dat 16 13107/mV 16 0 1767 -10365 0 S2
+icehg775.dat 16 13107/mV 16 0 15 5303 0 S2_DOCFILT-4-0.08-5
+icehg775.dat 16 13107/mV 16 0 -260 16397 0 S3
+icehg775.dat 16 13107/mV 16 0 -2 2768 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 775
+#    RecType Induced
+#    Gestation 41.6
+#    Rectime 31.1
+#    Age 29
+#    Weight 83
+#    Placental_position front
+#    Height 171
+#    Newborn_weight 3180
+#    Pair_RecID 774

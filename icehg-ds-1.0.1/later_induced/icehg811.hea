@@ -1,0 +1,18 @@
+icehg811 6 20 35400
+icehg811.dat 16 13107/mV 16 0 3709 -6491 0 S1
+icehg811.dat 16 13107/mV 16 0 31 -1882 0 S1_DOCFILT-4-0.08-5
+icehg811.dat 16 13107/mV 16 0 1603 -15364 0 S2
+icehg811.dat 16 13107/mV 16 0 13 -2839 0 S2_DOCFILT-4-0.08-5
+icehg811.dat 16 13107/mV 16 0 -1983 -3625 0 S3
+icehg811.dat 16 13107/mV 16 0 -16 1385 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 811
+#    RecType Induced
+#    Gestation 41.7
+#    Rectime 31.6
+#    Age 27
+#    Weight 67
+#    Placental_position end
+#    Height 157
+#    Newborn_weight 4130
+#    Pair_RecID None

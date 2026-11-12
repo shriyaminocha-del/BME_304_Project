@@ -1,0 +1,20 @@
+icehg666m 6 20 35340
+icehg666m.mat 16+192 13107/mV 16 0 -2115 12101 0 S1
+icehg666m.mat 16+192 13107/mV 16 0 -17 109 0 S1_DOCFILT-4-0.08-5
+icehg666m.mat 16+192 13107/mV 16 0 -1424 10698 0 S2
+icehg666m.mat 16+192 13107/mV 16 0 -12 -658 0 S2_DOCFILT-4-0.08-5
+icehg666m.mat 16+192 13107/mV 16 0 -5679 -4135 0 S3
+icehg666m.mat 16+192 13107/mV 16 0 -47 170 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 666
+#    RecType Cesarean
+#    Gestation 40.7
+#    Rectime 22.4
+#    Age 32
+#    Weight 113
+#    Placental_position end
+#    Height 170
+#    Newborn_weight 4070
+#    Pair_RecID None
+#Creator: wfdb2mat
+#Source: record early_cesarean/icehg666

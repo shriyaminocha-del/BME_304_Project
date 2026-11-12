@@ -1,0 +1,18 @@
+icehg657 6 20 35160
+icehg657.dat 16 13107/mV 16 0 8398 14430 0 S1
+icehg657.dat 16 13107/mV 16 0 69 -1263 0 S1_DOCFILT-4-0.08-5
+icehg657.dat 16 13107/mV 16 0 10059 17479 0 S2
+icehg657.dat 16 13107/mV 16 0 83 -2956 0 S2_DOCFILT-4-0.08-5
+icehg657.dat 16 13107/mV 16 0 123 -2754 0 S3
+icehg657.dat 16 13107/mV 16 0 1 -1051 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 657
+#    RecType Cesarean
+#    Gestation 40.9
+#    Rectime 23
+#    Age 25
+#    Weight 85
+#    Placental_position end
+#    Height 170
+#    Newborn_weight 4110
+#    Pair_RecID 654

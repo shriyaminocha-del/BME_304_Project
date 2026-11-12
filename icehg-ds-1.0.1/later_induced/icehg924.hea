@@ -1,0 +1,18 @@
+icehg924 6 20 35340
+icehg924.dat 16 13107/mV 16 0 674 3039 0 S1
+icehg924.dat 16 13107/mV 16 0 6 87 0 S1_DOCFILT-4-0.08-5
+icehg924.dat 16 13107/mV 16 0 -2633 -3080 0 S2
+icehg924.dat 16 13107/mV 16 0 -22 218 0 S2_DOCFILT-4-0.08-5
+icehg924.dat 16 13107/mV 16 0 2027 9780 0 S3
+icehg924.dat 16 13107/mV 16 0 17 -769 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 924
+#    RecType Induced
+#    Gestation 41.1
+#    Rectime 30.9
+#    Age 32
+#    Weight 76
+#    Placental_position front
+#    Height 178
+#    Newborn_weight 3665
+#    Pair_RecID None

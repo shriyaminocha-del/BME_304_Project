@@ -1,0 +1,18 @@
+icehg1580 6 20 36000
+icehg1580.dat 16 13107/mV 16 0 -709 -14541 0 S1
+icehg1580.dat 16 13107/mV 16 0 -288 -9403 0 S1_DOCFILT-4-0.08-5
+icehg1580.dat 16 13107/mV 16 0 -17 -7232 0 S2
+icehg1580.dat 16 13107/mV 16 0 62 -906 0 S2_DOCFILT-4-0.08-5
+icehg1580.dat 16 13107/mV 16 0 3131 15501 0 S3
+icehg1580.dat 16 13107/mV 16 0 1146 -26853 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 1580
+#    RecType Cesarean
+#    Gestation 40.6
+#    Rectime 30.4
+#    Age 32
+#    Weight 93
+#    Placental_position front
+#    Height 167
+#    Newborn_weight 3390
+#    Pair_RecID 1393

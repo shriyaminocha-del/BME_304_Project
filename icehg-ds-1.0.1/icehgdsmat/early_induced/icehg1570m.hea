@@ -1,0 +1,20 @@
+icehg1570m 6 20 35999
+icehg1570m.mat 16+192 13107/mV 16 0 -219 -2644 8 S1
+icehg1570m.mat 16+192 13107/mV 16 0 -2 -4321 8 S1_DOCFILT-4-0.08-5
+icehg1570m.mat 16+192 13107/mV 16 0 314 770 8 S2
+icehg1570m.mat 16+192 13107/mV 16 0 3 -3657 8 S2_DOCFILT-4-0.08-5
+icehg1570m.mat 16+192 13107/mV 16 0 1003 10656 8 S3
+icehg1570m.mat 16+192 13107/mV 16 0 8 -651 8 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 1570
+#    RecType Induced
+#    Gestation 39.7
+#    Rectime 23.6
+#    Age 31
+#    Weight 59
+#    Placental_position end
+#    Height 162
+#    Newborn_weight 3070
+#    Pair_RecID None
+#Creator: wfdb2mat
+#Source: record early_induced/icehg1570

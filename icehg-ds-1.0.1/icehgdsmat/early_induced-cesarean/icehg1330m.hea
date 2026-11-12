@@ -1,0 +1,20 @@
+icehg1330m 6 20 35999
+icehg1330m.mat 16+192 13107/mV 16 0 -8913 -2104 8 S1
+icehg1330m.mat 16+192 13107/mV 16 0 -74 906 8 S1_DOCFILT-4-0.08-5
+icehg1330m.mat 16+192 13107/mV 16 0 -6835 5115 8 S2
+icehg1330m.mat 16+192 13107/mV 16 0 -57 1368 8 S2_DOCFILT-4-0.08-5
+icehg1330m.mat 16+192 13107/mV 16 0 2779 327 8 S3
+icehg1330m.mat 16+192 13107/mV 16 0 23 -4044 8 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 1330
+#    RecType Induced-cesarean
+#    Gestation 40.1
+#    Rectime 23
+#    Age 35
+#    Weight 58
+#    Placental_position front
+#    Height 167
+#    Newborn_weight 3390
+#    Pair_RecID 1655
+#Creator: wfdb2mat
+#Source: record early_induced-cesarean/icehg1330

@@ -1,0 +1,18 @@
+icehg799 6 20 35280
+icehg799.dat 16 13107/mV 16 0 -550 -15767 0 S1
+icehg799.dat 16 13107/mV 16 0 -5 -3961 0 S1_DOCFILT-4-0.08-5
+icehg799.dat 16 13107/mV 16 0 2211 7066 0 S2
+icehg799.dat 16 13107/mV 16 0 18 1074 0 S2_DOCFILT-4-0.08-5
+icehg799.dat 16 13107/mV 16 0 -6505 -1294 0 S3
+icehg799.dat 16 13107/mV 16 0 -54 1728 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 799
+#    RecType Induced
+#    Gestation 41
+#    Rectime 31.3
+#    Age 30
+#    Weight 76
+#    Placental_position end
+#    Height 170
+#    Newborn_weight 3550
+#    Pair_RecID 1698

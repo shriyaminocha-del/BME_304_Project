@@ -1,0 +1,18 @@
+icehg1175 6 20 35240
+icehg1175.dat 16 13107/mV 16 0 2358 -12251 0 S1
+icehg1175.dat 16 13107/mV 16 0 20 6417 0 S1_DOCFILT-4-0.08-5
+icehg1175.dat 16 13107/mV 16 0 602 -4561 0 S2
+icehg1175.dat 16 13107/mV 16 0 5 1248 0 S2_DOCFILT-4-0.08-5
+icehg1175.dat 16 13107/mV 16 0 -1092 -6552 0 S3
+icehg1175.dat 16 13107/mV 16 0 -9 -3747 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 1175
+#    RecType Cesarean
+#    Gestation 39.3
+#    Rectime 22.1
+#    Age 26
+#    Weight 66
+#    Placental_position end
+#    Height 165
+#    Newborn_weight 3300
+#    Pair_RecID 1650

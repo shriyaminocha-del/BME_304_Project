@@ -1,0 +1,20 @@
+icehg673m 6 20 35320
+icehg673m.mat 16+192 13107/mV 16 0 1931 -3590 0 S1
+icehg673m.mat 16+192 13107/mV 16 0 16 -172 0 S1_DOCFILT-4-0.08-5
+icehg673m.mat 16+192 13107/mV 16 0 487 11357 0 S2
+icehg673m.mat 16+192 13107/mV 16 0 4 1803 0 S2_DOCFILT-4-0.08-5
+icehg673m.mat 16+192 13107/mV 16 0 -2564 9098 0 S3
+icehg673m.mat 16+192 13107/mV 16 0 -21 2771 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 673
+#    RecType Cesarean
+#    Gestation 39.1
+#    Rectime 24.9
+#    Age 27
+#    Weight 75
+#    Placental_position front
+#    Height 173
+#    Newborn_weight 3630
+#    Pair_RecID 675
+#Creator: wfdb2mat
+#Source: record early_cesarean/icehg673

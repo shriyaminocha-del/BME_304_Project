@@ -1,0 +1,18 @@
+icehg757 6 20 35280
+icehg757.dat 16 13107/mV 16 0 -161 -12914 0 S1
+icehg757.dat 16 13107/mV 16 0 -1 -2091 0 S1_DOCFILT-4-0.08-5
+icehg757.dat 16 13107/mV 16 0 -173 -15486 0 S2
+icehg757.dat 16 13107/mV 16 0 -1 262 0 S2_DOCFILT-4-0.08-5
+icehg757.dat 16 13107/mV 16 0 -1048 -14338 0 S3
+icehg757.dat 16 13107/mV 16 0 -9 3237 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 757
+#    RecType Induced
+#    Gestation 39.7
+#    Rectime 22.4
+#    Age 32
+#    Weight 68
+#    Placental_position end
+#    Height 162
+#    Newborn_weight 3500
+#    Pair_RecID 756

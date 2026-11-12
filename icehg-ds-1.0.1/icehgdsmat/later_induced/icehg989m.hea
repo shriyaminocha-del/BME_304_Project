@@ -1,0 +1,20 @@
+icehg989m 6 20 35320
+icehg989m.mat 16+192 13107/mV 16 0 10233 -12133 0 S1
+icehg989m.mat 16+192 13107/mV 16 0 85 2935 0 S1_DOCFILT-4-0.08-5
+icehg989m.mat 16+192 13107/mV 16 0 -28467 17143 0 S2
+icehg989m.mat 16+192 13107/mV 16 0 -235 7704 0 S2_DOCFILT-4-0.08-5
+icehg989m.mat 16+192 13107/mV 16 0 -32512 -768 0 S3
+icehg989m.mat 16+192 13107/mV 16 0 -269 715 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 989
+#    RecType Induced
+#    Gestation 40.4
+#    Rectime 30.9
+#    Age 27
+#    Weight 85
+#    Placental_position end
+#    Height 170
+#    Newborn_weight 3810
+#    Pair_RecID 1361
+#Creator: wfdb2mat
+#Source: record later_induced/icehg989

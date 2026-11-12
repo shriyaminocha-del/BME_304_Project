@@ -1,0 +1,18 @@
+icehg1510 6 20 36000
+icehg1510.dat 16 13107/mV 16 0 5120 14992 0 S1
+icehg1510.dat 16 13107/mV 16 0 42 -1149 0 S1_DOCFILT-4-0.08-5
+icehg1510.dat 16 13107/mV 16 0 3125 6983 0 S2
+icehg1510.dat 16 13107/mV 16 0 26 -819 0 S2_DOCFILT-4-0.08-5
+icehg1510.dat 16 13107/mV 16 0 1721 12406 0 S3
+icehg1510.dat 16 13107/mV 16 0 14 928 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 1510
+#    RecType Induced
+#    Gestation 41.3
+#    Rectime 30.3
+#    Age 34
+#    Weight 69
+#    Placental_position end
+#    Height 155
+#    Newborn_weight 3700
+#    Pair_RecID 1416

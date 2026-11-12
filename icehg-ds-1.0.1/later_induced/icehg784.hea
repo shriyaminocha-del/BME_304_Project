@@ -1,0 +1,18 @@
+icehg784 6 20 35200
+icehg784.dat 16 13107/mV 16 0 4696 12279 0 S1
+icehg784.dat 16 13107/mV 16 0 39 -1252 0 S1_DOCFILT-4-0.08-5
+icehg784.dat 16 13107/mV 16 0 -112 -16485 0 S2
+icehg784.dat 16 13107/mV 16 0 -1 -486 0 S2_DOCFILT-4-0.08-5
+icehg784.dat 16 13107/mV 16 0 237 5988 0 S3
+icehg784.dat 16 13107/mV 16 0 2 2867 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 784
+#    RecType Induced
+#    Gestation 38.6
+#    Rectime 31.7
+#    Age 32
+#    Weight 71
+#    Placental_position end
+#    Height 160
+#    Newborn_weight 2200
+#    Pair_RecID None

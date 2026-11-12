@@ -1,0 +1,18 @@
+icehg790 6 20 35240
+icehg790.dat 16 13107/mV 16 0 -177 18352 0 S1
+icehg790.dat 16 13107/mV 16 0 -1 4756 0 S1_DOCFILT-4-0.08-5
+icehg790.dat 16 13107/mV 16 0 4085 -12089 0 S2
+icehg790.dat 16 13107/mV 16 0 34 -1273 0 S2_DOCFILT-4-0.08-5
+icehg790.dat 16 13107/mV 16 0 2926 -10164 0 S3
+icehg790.dat 16 13107/mV 16 0 24 -66 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 790
+#    RecType Induced
+#    Gestation 41
+#    Rectime 30
+#    Age 34
+#    Weight 68
+#    Placental_position front
+#    Height 170
+#    Newborn_weight 3190
+#    Pair_RecID None

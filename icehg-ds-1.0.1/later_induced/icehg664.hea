@@ -1,0 +1,18 @@
+icehg664 6 20 35080
+icehg664.dat 16 13107/mV 16 0 -2478 11732 0 S1
+icehg664.dat 16 13107/mV 16 0 -20 1904 0 S1_DOCFILT-4-0.08-5
+icehg664.dat 16 13107/mV 16 0 -3876 11357 0 S2
+icehg664.dat 16 13107/mV 16 0 -32 -1497 0 S2_DOCFILT-4-0.08-5
+icehg664.dat 16 13107/mV 16 0 -5577 4202 0 S3
+icehg664.dat 16 13107/mV 16 0 -46 -1647 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 664
+#    RecType Induced
+#    Gestation 37.1
+#    Rectime 30.4
+#    Age 26
+#    Weight 84
+#    Placental_position front
+#    Height 165
+#    Newborn_weight 2860
+#    Pair_RecID 665

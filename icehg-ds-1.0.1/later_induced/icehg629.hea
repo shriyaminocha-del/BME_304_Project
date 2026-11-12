@@ -1,0 +1,18 @@
+icehg629 6 20 35460
+icehg629.dat 16 13107/mV 16 0 1493 -17229 0 S1
+icehg629.dat 16 13107/mV 16 0 12 -19233 0 S1_DOCFILT-4-0.08-5
+icehg629.dat 16 13107/mV 16 0 4766 -8730 0 S2
+icehg629.dat 16 13107/mV 16 0 39 -14056 0 S2_DOCFILT-4-0.08-5
+icehg629.dat 16 13107/mV 16 0 -1841 20557 0 S3
+icehg629.dat 16 13107/mV 16 0 -15 2394 0 S3_DOCFILT-4-0.08-5
+#Comments:
+#    RecID 629
+#    RecType Induced
+#    Gestation 41.1
+#    Rectime 31
+#    Age 32
+#    Weight 63
+#    Placental_position front
+#    Height 163
+#    Newborn_weight 3510
+#    Pair_RecID None
