@@ -1,0 +1,162 @@
+[load] parsing headers and applying record-level exclusions
+  TPEHG DB        :  300 header files in /Users/saanvee/BME_304_Project/term-preterm-ehg-database-1.0.1/term-preterm-ehg-database-1.0.1/tpehgdb
+  TPEHGT DS       :   31 header files in /Users/saanvee/BME_304_Project/term-preterm-ehg-dataset-with-tocogram-1.0.0
+  EHGDB (Iceland) :  123 header files in /Users/saanvee/BME_304_Project/icelandic-ehg-dataset
+  ICEHG DS        :  126 header files in /Users/saanvee/BME_304_Project/icehg-ds-1.0.1
+  retained 559 recordings; excluded 21; pregnancies with >1 recording: 43 (1 entirely within TPEHG DB)
+[features] extracting 3 bands x 3 channels for 559 recordings (parallel)
+Exception ignored in: <function ResourceTracker.__del__ at 0x1035e9bc0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 82, in __del__
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 91, in _stop
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 116, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+  558 recordings with features; 5022 rows
+[verify] comparing features with the TPEHG DB .fvl tables
+          pearson_r  median_rel_error  frac_within_5pct
+feature                                                
+f_median     0.9745            0.0364            0.6258
+f_peak       0.6987            0.0470            0.5333
+rms          0.9999            0.0092            1.0000
+sampen       0.9991            0.0033            0.9993
+[rq1] models x samplers, 10 repeats of 5-fold grouped CV
+  cohort A: 299 recordings, 298 pregnancies, 38 preterm recordings
+    logreg  none          AUROC 0.578 [0.494, 0.678]
+    logreg  class_weight  AUROC 0.598 [0.507, 0.696]
+    logreg  smote         AUROC 0.597 [0.505, 0.696]
+    logreg  adasyn        AUROC 0.599 [0.502, 0.696]
+    rf      none          AUROC 0.506 [0.411, 0.608]
+    rf      class_weight  AUROC 0.511 [0.418, 0.618]
+    rf      smote         AUROC 0.541 [0.446, 0.653]
+    rf      adasyn        AUROC 0.535 [0.434, 0.649]
+    svm     none          AUROC 0.552 [0.466, 0.677]
+    svm     class_weight  AUROC 0.562 [0.483, 0.668]
+    svm     smote         AUROC 0.560 [0.471, 0.653]
+    svm     adasyn        AUROC 0.554 [0.463, 0.643]
+  cohort B: 445 recordings, 402 pregnancies, 51 preterm recordings
+    logreg  none          AUROC 0.590 [0.505, 0.674]
+    logreg  class_weight  AUROC 0.604 [0.521, 0.690]
+    logreg  smote         AUROC 0.604 [0.525, 0.688]
+    logreg  adasyn        AUROC 0.603 [0.525, 0.688]
+    rf      none          AUROC 0.555 [0.485, 0.640]
+    rf      class_weight  AUROC 0.554 [0.486, 0.647]
+    rf      smote         AUROC 0.570 [0.489, 0.661]
+    rf      adasyn        AUROC 0.563 [0.481, 0.652]
+    svm     none          AUROC 0.563 [0.494, 0.664]
+    svm     class_weight  AUROC 0.568 [0.482, 0.640]
+    svm     smote         AUROC 0.558 [0.472, 0.627]
+    svm     adasyn        AUROC 0.558 [0.471, 0.627]
+  leakage A logreg : leak-free 0.597 vs leaky 0.664
+  leakage A rf     : leak-free 0.541 vs leaky 0.912
+  leakage A svm    : leak-free 0.560 vs leaky 0.732
+  leakage B logreg : leak-free 0.604 vs leaky 0.622
+  leakage B rf     : leak-free 0.570 vs leaky 0.946
+  leakage B svm    : leak-free 0.558 vs leaky 0.683
+  permutation test (1000 shuffles, primary model on cohort B) ...
+  observed AUROC 0.616, null mean 0.491, p = 0.0080
+[rq2] confounder analysis
+  A all   ga               n=299 preterm preg=38 AUROC 0.461 [0.362, 0.528]
+  A all   clinical         n=299 preterm preg=38 AUROC 0.474 [0.379, 0.590]
+  A all   ga+clinical      n=299 preterm preg=38 AUROC 0.471 [0.369, 0.575]
+  A all   ehg              n=299 preterm preg=38 AUROC 0.597 [0.505, 0.696]
+  A all   ehg+clinical+ga  n=299 preterm preg=38 AUROC 0.533 [0.445, 0.637]
+  A early ga               n=161 preterm preg=19 AUROC 0.616 [0.446, 0.755]
+  A early clinical         n=161 preterm preg=19 AUROC 0.394 [0.249, 0.530]
+  A early ga+clinical      n=161 preterm preg=19 AUROC 0.464 [0.320, 0.621]
+  A early ehg              n=161 preterm preg=19 AUROC 0.604 [0.443, 0.755]
+  A early ehg+clinical+ga  n=161 preterm preg=19 AUROC 0.542 [0.391, 0.700]
+  A late  ga               n=138 preterm preg=19 AUROC 0.607 [0.468, 0.755]
+  A late  clinical         n=138 preterm preg=19 AUROC 0.575 [0.454, 0.708]
+  A late  ga+clinical      n=138 preterm preg=19 AUROC 0.614 [0.503, 0.765]
+  A late  ehg              n=138 preterm preg=19 AUROC 0.453 [0.331, 0.577]
+  A late  ehg+clinical+ga  n=138 preterm preg=19 AUROC 0.594 [0.464, 0.717]
+  B all   ga               n=445 preterm preg=46 AUROC 0.511 [0.411, 0.572]
+  B all   clinical         n=445 preterm preg=46 AUROC 0.557 [0.470, 0.671]
+  B all   ga+clinical      n=445 preterm preg=46 AUROC 0.558 [0.475, 0.668]
+  B all   ehg              n=445 preterm preg=46 AUROC 0.604 [0.525, 0.688]
+  B all   ehg+clinical+ga  n=445 preterm preg=46 AUROC 0.586 [0.508, 0.692]
+  B early ga               n=220 preterm preg=19 AUROC 0.628 [0.477, 0.756]
+  B early clinical         n=220 preterm preg=19 AUROC 0.380 [0.233, 0.505]
+  B early ga+clinical      n=220 preterm preg=19 AUROC 0.443 [0.312, 0.597]
+  B early ehg              n=220 preterm preg=19 AUROC 0.575 [0.411, 0.735]
+  B early ehg+clinical+ga  n=220 preterm preg=19 AUROC 0.516 [0.373, 0.685]
+  B late  ga               n=225 preterm preg=27 AUROC 0.651 [0.512, 0.763]
+  B late  clinical         n=225 preterm preg=27 AUROC 0.656 [0.560, 0.789]
+  B late  ga+clinical      n=225 preterm preg=27 AUROC 0.696 [0.590, 0.806]
+  B late  ehg              n=225 preterm preg=27 AUROC 0.514 [0.406, 0.606]
+  B late  ehg+clinical+ga  n=225 preterm preg=27 AUROC 0.673 [0.566, 0.787]
+[rq3] sensitivity to pre-processing
+  band 0.08-4 done (24 configurations so far)
+  band 0.3-3 done (48 configurations so far)
+  band 0.3-4 done (72 configurations so far)
+[external] validation on the Icelandic database
+  n_recordings: 113
+  n_pregnancies: 40
+  n_preterm_recordings: 2
+  n_preterm_pregnancies: 1
+  threshold_sens80_from_cohortB: 0.4554993006352078
+  cohortB_fpr_at_sens80: 0.583756345177665
+  fpr_recordings_sens80: 0.8288288288288288
+  fpr_pregnancies_sens80: 0.9743589743589743
+  sensitivity_recordings_sens80: 0.0
+  fpr_recordings_p50: 0.7477477477477478
+  fpr_pregnancies_p50: 0.9487179487179487
+  sensitivity_recordings_p50: 0.0
+  auroc_iceland: 0.11261261261261263
+  auroc_iceland_note: computed on very few preterm cases; unreliable
+  mean_score_cohortB_term: 0.45318693984841407
+  mean_score_cohortB_preterm: 0.5150239605655296
+  mean_score_iceland: 0.5243448879625866
+[report]
+  wrote /Users/saanvee/BME_304_Project/outputs/results.txt
+done.
+Exception ignored in: <function ResourceTracker.__del__ at 0x1063a5bc0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 82, in __del__
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 91, in _stop
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 116, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x103565bc0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 82, in __del__
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 91, in _stop
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 116, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x106849bc0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 82, in __del__
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 91, in _stop
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 116, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x106f35bc0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 82, in __del__
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 91, in _stop
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 116, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x1037d1bc0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 82, in __del__
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 91, in _stop
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 116, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x104f65bc0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 82, in __del__
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 91, in _stop
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 116, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x102a4dbc0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 82, in __del__
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 91, in _stop
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 116, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+Exception ignored in: <function ResourceTracker.__del__ at 0x105565bc0>
+Traceback (most recent call last):
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 82, in __del__
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 91, in _stop
+  File "/opt/anaconda3/lib/python3.13/multiprocessing/resource_tracker.py", line 116, in _stop_locked
+ChildProcessError: [Errno 10] No child processes
+/opt/anaconda3/bin/python ehg_analysis.py --all  3353.45s user 386.83s system 566% cpu 10:59.93 total
+python exit 0

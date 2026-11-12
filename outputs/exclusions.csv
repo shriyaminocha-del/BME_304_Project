@@ -1,0 +1,23 @@
+dataset,record_id,reason
+tpehgt,tpehgt_n001,non-pregnant recording
+tpehgt,tpehgt_n002,non-pregnant recording
+tpehgt,tpehgt_n003,non-pregnant recording
+tpehgt,tpehgt_n004,non-pregnant recording
+tpehgt,tpehgt_n005,non-pregnant recording
+ice,ice001_l_1of1,labour recording
+ice,ice011_l_3of3,labour recording
+ice,ice016_l_1of1,labour recording
+ice,ice020_l_1of1,labour recording
+ice,ice024_l_1of1,labour recording
+ice,ice025_l_1of1,labour recording
+ice,ice027_l_7of7,labour recording
+ice,ice030_l_4of4,labour recording
+ice,ice031_l_3of3,labour recording
+ice,ice034_l_5of5,labour recording
+icehg,icehg1089,duplicate of a TPEHG DB recording (identical signal)
+icehg,icehg1443,duplicate of a TPEHG DB recording (identical signal)
+icehg,icehg814,duplicate of a TPEHG DB recording (identical signal)
+icehg,icehg1650,duplicate of a TPEHG DB recording (identical signal)
+icehg,icehg675,duplicate of a TPEHG DB recording (identical signal)
+icehg,icehg851,duplicate of a TPEHG DB recording (identical signal)
+tpehg,tpehg873,shorter than 10 min after trimming

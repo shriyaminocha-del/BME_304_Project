@@ -1,0 +1,19 @@
+{
+  "n_recordings": 113,
+  "n_pregnancies": 40,
+  "n_preterm_recordings": 2,
+  "n_preterm_pregnancies": 1,
+  "threshold_sens80_from_cohortB": 0.4554993006352078,
+  "cohortB_fpr_at_sens80": 0.583756345177665,
+  "fpr_recordings_sens80": 0.8288288288288288,
+  "fpr_pregnancies_sens80": 0.9743589743589743,
+  "sensitivity_recordings_sens80": 0.0,
+  "fpr_recordings_p50": 0.7477477477477478,
+  "fpr_pregnancies_p50": 0.9487179487179487,
+  "sensitivity_recordings_p50": 0.0,
+  "auroc_iceland": 0.11261261261261263,
+  "auroc_iceland_note": "computed on very few preterm cases; unreliable",
+  "mean_score_cohortB_term": 0.45318693984841407,
+  "mean_score_cohortB_preterm": 0.5150239605655296,
+  "mean_score_iceland": 0.5243448879625866
+}
